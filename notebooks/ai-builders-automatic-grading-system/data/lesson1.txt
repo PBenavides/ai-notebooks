@@ -1,0 +1,129 @@
+Lesson One: Foundations of Problem-Solving and C++ Program Structure
+
+Close your eyes and picture a small workshop in the heart of a bustling medieval town. Outside, you hear the chatter of merchants and the rhythmic clank of a blacksmith’s hammer. Inside, at a wooden desk, an apprentice—let’s call him Alden—is about to craft something truly special. He doesn’t have wood or iron in front of him. Instead, he’s working with ideas, logic, and a strange new language of symbols and instructions. He’s building a piece of software. The goal? To guide travelers and treasure hunters through mysterious forests in search of hidden chests. Just as a blacksmith heats the metal and hammers it into shape, Alden will carefully design, test, and shape his program until it’s strong and reliable.
+
+In this first lesson, we’ll look over Alden’s shoulder as he embarks on the journey of creating his first program. We’ll explore how developers solve problems before writing a single complete product, how large projects are guided through stages of development, and how certain programming concepts—like starting points of code execution, variables, and control flow—become our basic tools. We’ll also peek just over the horizon at what lies ahead: a structured way of building software called object-oriented programming (OOP). While we won’t dive into its details until the next lesson, we will introduce the idea that code can be shaped in ways that resemble well-organized workshops, each with its own tools, secrets, and safeguards.
+
+Approaching the Unknown: Prototyping and Problem-Solving
+
+When Alden begins his project, he doesn’t immediately craft an elaborate, full-featured software solution. Instead, he starts small. Suppose he wants to write a program that helps a traveler keep track of the items they pick up in the forest—berries, herbs, trinkets of gold, magical stones. Before creating a polished inventory system with a beautiful interface and complex logic, he might first build a small prototype: a quick, rough version of the program that can store a few items and print them out. This humble prototype has a critical purpose. It answers early questions—Is the approach feasible? Do the chosen data structures or logic patterns even work as intended? Is there a simpler method?
+
+By experimenting with a prototype, Alden can identify high-risk areas and understand which ideas might fail before he invests too much time perfecting them. If one approach to storing items turns out to be slow or too difficult to implement, he learns this now, when he’s only spent a short afternoon coding. It’s much better to discover flaws early, when they are relatively cheap and easy to fix, rather than after months of development. Prototyping, in other words, transforms unknown challenges into manageable tasks, clearing the path before committing to a grand design.
+
+The Software Development Life Cycle: A Roadmap Through the Forest
+
+As Alden refines his prototype and gains confidence, he begins to follow a more formal path known as the Software Development Life Cycle (SDLC). You can think of the SDLC as a roadmap for a traveler journeying through a thick forest. Each phase of the SDLC is like a distinct terrain:
+	•	First, Alden collects requirements, understanding what the traveler (the future user) truly needs. Does this inventory tool need to track not only names of items but also their quantities, value, and expiration dates (for those berries that rot after a while)? This is where he decides on the ultimate goals.
+	•	Next comes design. Just as a mapmaker charts out rivers and trails, Alden decides how the code will be organized. He might plan certain functions (small sets of instructions), decide on how data will be stored, and think about how the user will interact with the program.
+	•	Then arrives implementation, the actual act of coding. Alden sits down at his workbench and writes out function after function, line after line, building the logic that turns ideas into reality.
+	•	With a rough version now in hand, testing follows. Alden tries the program: He picks up “healing potion,” “elven sword,” and “magic berry” and checks if the inventory system handles them correctly. Testing is not just a formality—it has a real impact on the entire software. If the test reveals flaws, Alden might return to the design phase to adjust his approach. If the program crashes or runs too slowly, that might delay the final production. Without testing, issues can linger unnoticed until it’s too late.
+	•	Finally, after all initial issues are resolved, the program can be released and put into maintenance mode. Travelers start using it, and Alden remains prepared to fix new bugs or add new features—maybe a sorting function, or a feature that displays how much each item weighs.
+
+At each stage, testing acts like a compass. If something is off, it points Alden back to a previous stage, nudging him to refine his approach. This cycle ensures that the final program is not just thrown together, but carefully shaped over time.
+
+An Early Glimpse at OOP: Modularity, Reusability, and More
+
+Now, Alden has a decent sense of the journey ahead. But the forest can still be complex. As projects grow, code can become tangled like thick underbrush. Imagine a script of thousands of lines, all crammed together. Finding errors would be like looking for a single broken twig in a vast woodland. Maintaining or expanding the program would require carefully stepping through dense logic, risking breaking something else every time you make a change.
+
+This is where the ideas behind Object-Oriented Programming (OOP) start to offer solutions, even if we won’t fully explore them until next week. OOP encourages thinking of code as a collection of interacting objects, each with its own responsibilities. For example, one object might handle the traveler’s inventory, while another handles the interactions with a merchant. By organizing code into classes and objects, Alden can break the problem down into smaller, more manageable parts—much like turning a wild forest path into a network of well-marked trails.
+
+Two powerful principles of OOP, inheritance and polymorphism, promise even greater flexibility and reuse. Inheritance allows Alden to create a general class, say “Item,” and then easily define more specific classes like “Weapon” or “Potion” that share common traits but also have their own unique features. Polymorphism allows these items to be handled in a general manner, simplifying how the program deals with different item types. Although we’ll discuss these details in the next lesson, for now, just keep in mind that OOP offers a way to build modular, secure, and easily debuggable solutions. Code can be reused in multiple places, debugging can be more straightforward because classes are neatly separated, and the internal workings of these classes can be hidden (securely protected) from other parts of the code. Hiding the source code details inside classes is like placing secret compartments in the workshop’s cabinets. You can interact with the cabinet’s contents through small doors and handles (public methods), but you don’t need to know what’s happening behind the paneling.
+
+For now, just know that these ideas exist. We’ll roll up our sleeves and build actual classes and objects next time. This week’s focus is on the fundamentals—how C++ programs start and run, how you use variables to store information, and how you shape the flow of your code.
+
+The Starting Point: int main() in C++
+
+Every journey begins with a first step, and in a C++ program, that step is the main() function. No matter how complex the code and how many files and classes it has, the program starts executing from the main() function. Think of main() as the grand entrance to Alden’s workshop: you can have countless rooms (other functions), tools (variables), and side passages (control flow statements), but you always enter through the front door.
+
+A barebones C++ program might look like this:
+
+#include <iostream>
+#include <string>
+
+int main() {
+    std::cout << "Welcome, traveler!\n";
+    return 0; // Indicates that the program ended successfully
+}
+
+When this program runs, it begins at int main(). The statements inside main() are carried out in order—printing a welcome message and then returning 0 to signal successful completion. Understanding this starting point is essential, because as you add more complexity—variables, loops, functions, and eventually classes—you need to know where the program begins its march through the code.
+
+Variables: Storing Data and Keeping Things Organized
+
+Once inside the workshop, Alden needs places to store information. Imagine chests, cabinets, or shelves where he can keep items. In code, these storage areas are called variables. Variables hold information—integers for counting items, floating-point numbers for item weights, strings for item names. For example, if he wants to keep track of how many items the traveler currently carries, he might declare an integer variable:
+
+int itemCount = 0; // Start with an empty inventory
+
+The int keyword specifies the variable’s type—an integer. Similarly, if Alden wants to store the name of an item, he might use a string:
+
+std::string itemName = "Healing Potion";
+
+Choosing meaningful variable names (like itemCount rather than just x) makes the code easier to read and maintain. While you can declare variables anywhere in modern C++, a good practice—especially for beginners—is to declare them near the start of the function or block where they’ll be used. This early declaration, with a comment or label, makes it clearer what role each variable plays.
+
+Over time, as the program grows, you might have many variables, so staying organized is crucial. Variables become the fundamental building blocks on which your entire logic depends. The better you manage them, the easier it is to understand and maintain the code as you add complexity.
+
+Controlling the Flow: While and do…while Loops
+
+Alden’s program might need to keep adding items to the inventory until the traveler is done. Or it might need to repeatedly display a menu until the user chooses to exit. Repetition and conditional behavior are handled by control flow statements. Two closely related loops in C++ are the while and do...while loops. Both allow you to execute a block of code multiple times, but they differ in when they check the condition that controls that repetition.
+
+The while loop checks its condition at the beginning, before executing the loop’s body. For example:
+
+int itemsToAdd = 3;
+while (itemsToAdd > 0) {
+    std::cout << "You picked an item!\n";
+    itemsToAdd--;
+}
+
+This code checks itemsToAdd > 0 first. If it’s true, it executes the body—printing a message and decrementing itemsToAdd. This continues until itemsToAdd is no longer greater than zero.
+
+By contrast, the do…while loop executes its body at least once before checking the condition at the end:
+
+int userChoice;
+do {
+    std::cout << "Enter 1 to pick an item or 0 to quit: ";
+    std::cin >> userChoice;
+} while (userChoice != 0);
+
+Here, the traveler is prompted at least once. Only after executing the prompt does the code check if userChoice is not zero to continue.
+
+This subtle difference can matter when you must ensure the code inside the loop runs at least once—like providing a menu or initial set of instructions to the user. Understanding these nuances helps Alden shape his program’s logic exactly as he needs.
+
+Putting It All Together: A Small Example
+
+As a simple demonstration, consider this snippet that ties some of these ideas together:
+
+#include <iostream>
+#include <string>
+
+int main() {
+    std::cout << "Welcome to the Forest Inventory Tracker!\n";
+
+    // Variables
+    int itemCount = 0;
+    std::string itemName;
+
+    // Use a loop to add items until the traveler decides to stop
+    char continueAdding = 'y';
+    while (continueAdding == 'y') {
+        std::cout << "Enter an item name: ";
+        std::cin >> itemName; // Get an item from user
+        itemCount++;
+        std::cout << "You now have " << itemCount << " items.\n";
+
+        std::cout << "Add another? (y/n): ";
+        std::cin >> continueAdding;
+    }
+
+    std::cout << "You collected " << itemCount << " items in total!\n";
+
+    return 0;
+}
+
+This small program starts in main(), declares variables at the start of the function for clarity, uses a while loop to repeatedly gather user input, and terminates once the user decides to stop. While it’s far from a complete inventory management system, it shows how these fundamental concepts—execution starting at main(), variables storing data, and loops guiding the program’s flow—come together.
+
+Looking Ahead
+
+In this first week, we explored how software is often created: not in one fell swoop, but step-by-step, guided by prototypes, tested for flaws, and refined over time. We introduced the concept of the SDLC, showing that software evolves much like a journey through a forest. We briefly peeked at OOP principles, hinting at a more structured way to build large programs so they remain understandable and secure. We looked at how every C++ program begins in int main(), how variables store essential information, and how loops help us perform repeated tasks.
+
+As the journey continues, we’ll move deeper into the forest of OOP. In the next lesson, we’ll discuss how to define classes, separate data (attributes) and behaviors (functions), and leverage features like constructors to initialize objects properly. We’ll talk about how to separate your code into header files to keep it organized, explore how data members differ from local variables, and see how multiple constructors can help adapt objects to different situations. But that’s all for next time.
+
+For now, practice these fundamentals. Experiment with prototypes in your own small programs, think about how you would test and refine them, and get comfortable with writing main(), declaring variables, and using loops. With these tools in hand, you’re well on your way to becoming a skilled programmer, ready to navigate ever more complex forests of code.

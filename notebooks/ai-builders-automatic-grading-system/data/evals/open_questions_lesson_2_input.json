@@ -1,0 +1,2162 @@
+{
+    "student_1": [
+        {
+            "id": 203,
+            "question": "What is typically included in a class definition?",
+            "student_answer": "For us it is usually a set, get, and displayMessge or other messages that tell you what properties a class has but does not reveal its implementations. You could have anything you want in your own class definition.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "class",
+                "data_member",
+                "member_function",
+                "encapsulation"
+            ]
+        },
+        {
+            "id": 233,
+            "question": "What is the difference between a data member and a local variable inside a member function?",
+            "student_answer": "Data members are the data components of a particular class.  A member function are the functioning components of the class.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "data_member",
+                "local_variable",
+                "member_function"
+            ]
+        },
+        {
+            "id": 263,
+            "question": "What is the difference between a constructor and a function?",
+            "student_answer": "A constructor initializes an object or objects of a class.  A function of a class performs a task such as display a line of text or do some kind of mathematical operations.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor",
+                "member_function"
+            ]
+        },
+        {
+            "id": 293,
+            "question": "When does C++ create a default constructor?",
+            "student_answer": "The compiler creates a default constructor when we do not define one in our class file",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor"
+            ]
+        },
+        {
+            "id": 323,
+            "question": "How many constructors can be created for a class?",
+            "student_answer": "Just one per class.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor",
+                "class",
+                "overloading"
+            ]
+        },
+        {
+            "id": 353,
+            "question": "What is the difference between a function prototype and a function definition?",
+            "student_answer": "A function definition does not require any additional information that needs to be passed inside its parenthesis  to execute. While a definition prototype requires more than one parameters to be passed in order to complete its  task.",
+            "concepts_evaluated": [
+                "header_file",
+                "source_file"
+            ]
+        },
+        {
+            "id": 383,
+            "question": "What is the role of a header-file?",
+            "student_answer": "the role of a header file list all the functions a class can do while hiding the inner workings of its functions",
+            "concepts_evaluated": [
+                "header_file"
+            ]
+        }
+    ],
+    "student_10": [
+        {
+            "id": 212,
+            "question": "What is typically included in a class definition?",
+            "student_answer": "member functions",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "class",
+                "data_member",
+                "member_function",
+                "encapsulation"
+            ]
+        },
+        {
+            "id": 242,
+            "question": "What is the difference between a data member and a local variable inside a member function?",
+            "student_answer": "data members are declared in a class definition but outside the bodies of a class's member-function definitions. Local variables are declared in a function definition's body",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "data_member",
+                "local_variable",
+                "member_function"
+            ]
+        },
+        {
+            "id": 272,
+            "question": "What is the difference between a constructor and a function?",
+            "student_answer": "constructors cannot return values, so they cannot specify a return type like functions can.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor",
+                "member_function"
+            ]
+        },
+        {
+            "id": 302,
+            "question": "When does C++ create a default constructor?",
+            "student_answer": "In any class that does not explicitly include a constructor.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor"
+            ]
+        },
+        {
+            "id": 332,
+            "question": "How many constructors can be created for a class?",
+            "student_answer": "as many as you want",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor",
+                "class",
+                "overloading"
+            ]
+        },
+        {
+            "id": 362,
+            "question": "What is the difference between a function prototype and a function definition?",
+            "student_answer": "A function prototype describes a class's public interface without revealing the class's member function implementations",
+            "concepts_evaluated": [
+                "header_file",
+                "source_file"
+            ]
+        },
+        {
+            "id": 392,
+            "question": "What is the role of a header-file?",
+            "student_answer": "the header file has access to the C++ Standard Library and makes certain classes like class string work.",
+            "concepts_evaluated": [
+                "header_file"
+            ]
+        }
+    ],
+    "student_11": [
+        {
+            "id": 213,
+            "question": "What is typically included in a class definition?",
+            "student_answer": "Member functions and data members belonging to the class.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "class",
+                "data_member",
+                "member_function",
+                "encapsulation"
+            ]
+        },
+        {
+            "id": 243,
+            "question": "What is the difference between a data member and a local variable inside a member function?",
+            "student_answer": "A data member is globally accessible, while a local variable is only accessible inside the member function.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "data_member",
+                "local_variable",
+                "member_function"
+            ]
+        },
+        {
+            "id": 273,
+            "question": "What is the difference between a constructor and a function?",
+            "student_answer": "A constructor is a function used to initialize an object's data when it is created.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor",
+                "member_function"
+            ]
+        },
+        {
+            "id": 303,
+            "question": "When does C++ create a default constructor?",
+            "student_answer": "Before the main function of the code.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor"
+            ]
+        },
+        {
+            "id": 333,
+            "question": "How many constructors can be created for a class?",
+            "student_answer": "As many as you want, with different parameters.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor",
+                "class",
+                "overloading"
+            ]
+        },
+        {
+            "id": 363,
+            "question": "What is the difference between a function prototype and a function definition?",
+            "student_answer": "Function definitions are just that, the definition. The prototype is what the compiler uses to check that calls to function are correct.",
+            "concepts_evaluated": [
+                "header_file",
+                "source_file"
+            ]
+        },
+        {
+            "id": 393,
+            "question": "What is the role of a header-file?",
+            "student_answer": "\u201cInstruct\u201d the compiler on how to interface with library and user-written components.",
+            "concepts_evaluated": [
+                "header_file"
+            ]
+        }
+    ],
+    "student_12": [
+        {
+            "id": 214,
+            "question": "What is typically included in a class definition?",
+            "student_answer": "a public and private area that includes the functions and variables that are used in the class",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "class",
+                "data_member",
+                "member_function",
+                "encapsulation"
+            ]
+        },
+        {
+            "id": 244,
+            "question": "What is the difference between a data member and a local variable inside a member function?",
+            "student_answer": "A variable inside a member function can only be accessed inside that member and a data member can be accessed throughought the program.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "data_member",
+                "local_variable",
+                "member_function"
+            ]
+        },
+        {
+            "id": 274,
+            "question": "What is the difference between a constructor and a function?",
+            "student_answer": "a constructor initialises everything so that nothing is left empty or with random varioubles and a function modifies those variables with data.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor",
+                "member_function"
+            ]
+        },
+        {
+            "id": 304,
+            "question": "When does C++ create a default constructor?",
+            "student_answer": "whenevery you dont specifiy your own",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor"
+            ]
+        },
+        {
+            "id": 334,
+            "question": "How many constructors can be created for a class?",
+            "student_answer": "infinite",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor",
+                "class",
+                "overloading"
+            ]
+        },
+        {
+            "id": 364,
+            "question": "What is the difference between a function prototype and a function definition?",
+            "student_answer": "a prototype does not include any actual code where the function has all the code that is executed in the program.",
+            "concepts_evaluated": [
+                "header_file",
+                "source_file"
+            ]
+        },
+        {
+            "id": 394,
+            "question": "What is the role of a header-file?",
+            "student_answer": "create a comon area to contain reusable functions.",
+            "concepts_evaluated": [
+                "header_file"
+            ]
+        }
+    ],
+    "student_13": [
+        {
+            "id": 215,
+            "question": "What is typically included in a class definition?",
+            "student_answer": "the keyword class followed by they class name, on the inside you declare public and private declarations of your class",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "class",
+                "data_member",
+                "member_function",
+                "encapsulation"
+            ]
+        },
+        {
+            "id": 245,
+            "question": "What is the difference between a data member and a local variable inside a member function?",
+            "student_answer": "Local variables are used only within the scope of its declaration",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "data_member",
+                "local_variable",
+                "member_function"
+            ]
+        },
+        {
+            "id": 275,
+            "question": "What is the difference between a constructor and a function?",
+            "student_answer": "A constructor initialized values at the execution of its instantiation. It provides default values.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor",
+                "member_function"
+            ]
+        },
+        {
+            "id": 305,
+            "question": "When does C++ create a default constructor?",
+            "student_answer": "When non are provided",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor"
+            ]
+        },
+        {
+            "id": 335,
+            "question": "How many constructors can be created for a class?",
+            "student_answer": "as many as you need",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor",
+                "class",
+                "overloading"
+            ]
+        },
+        {
+            "id": 365,
+            "question": "What is the difference between a function prototype and a function definition?",
+            "student_answer": "a prototype declares what will be used in the program and the definition",
+            "concepts_evaluated": [
+                "header_file",
+                "source_file"
+            ]
+        },
+        {
+            "id": 395,
+            "question": "What is the role of a header-file?",
+            "student_answer": "to declare the functions being used in the classes",
+            "concepts_evaluated": [
+                "header_file"
+            ]
+        }
+    ],
+    "student_14": [
+        {
+            "id": 216,
+            "question": "What is typically included in a class definition?",
+            "student_answer": "A class definition typically includes function definitions.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "class",
+                "data_member",
+                "member_function",
+                "encapsulation"
+            ]
+        },
+        {
+            "id": 246,
+            "question": "What is the difference between a data member and a local variable inside a member function?",
+            "student_answer": "A data member is a more general term describing all objects instantiated within a member function.  \"Local\" in local variables refers more to the scope of a variable, which may be located in anything from a control structure to a class.  Local variables whose scope are in a member function are the same as data members of member functions.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "data_member",
+                "local_variable",
+                "member_function"
+            ]
+        },
+        {
+            "id": 276,
+            "question": "What is the difference between a constructor and a function?",
+            "student_answer": "A constructor sets up the default values of variables when an object is instantiated, whereas a function allows interaction with that object.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor",
+                "member_function"
+            ]
+        },
+        {
+            "id": 306,
+            "question": "When does C++ create a default constructor?",
+            "student_answer": "C++ will create a default constructor when no other constructor is present.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor"
+            ]
+        },
+        {
+            "id": 336,
+            "question": "How many constructors can be created for a class?",
+            "student_answer": "As many as are needed, depending on how many variables one wishes to directly modify or leave as default when instantiating an object.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor",
+                "class",
+                "overloading"
+            ]
+        },
+        {
+            "id": 366,
+            "question": "What is the difference between a function prototype and a function definition?",
+            "student_answer": "A function prototype lays out the name, return type, and the number and types of parameters the function expects to receive in a certain order.  The details for function prototypes are in the function definition.",
+            "concepts_evaluated": [
+                "header_file",
+                "source_file"
+            ]
+        },
+        {
+            "id": 396,
+            "question": "What is the role of a header-file?",
+            "student_answer": "#include \"hat.h\"  allows the use of the hat container, so called from the act of pulling names from a hat.  The header file for hat includes functions for storage and retrieval of it's contents, mainly put(), peek(), and pull().",
+            "concepts_evaluated": [
+                "header_file"
+            ]
+        }
+    ],
+    "student_15": [
+        {
+            "id": 217,
+            "question": "What is typically included in a class definition?",
+            "student_answer": "It begins with Class, followed by the class name, then usually a constructor, data members and member functions that delineates the class is included in any class's definition.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "class",
+                "data_member",
+                "member_function",
+                "encapsulation"
+            ]
+        },
+        {
+            "id": 247,
+            "question": "What is the difference between a data member and a local variable inside a member function?",
+            "student_answer": "A data member exists permanently in that program's memory as long as it's run.  A local variable inside a member function is temporal and only used to operate in the function and exists as long as the function is run.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "data_member",
+                "local_variable",
+                "member_function"
+            ]
+        },
+        {
+            "id": 277,
+            "question": "What is the difference between a constructor and a function?",
+            "student_answer": "A constructor is used to create an object that can be employed in the main function of a program.  This may or may not execute code along with it.  A function is a set of code that executes when called, but does not create a new object.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor",
+                "member_function"
+            ]
+        },
+        {
+            "id": 307,
+            "question": "When does C++ create a default constructor?",
+            "student_answer": "When no constructor was specified in the constructor's class, but the class is instantiated in a program.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor"
+            ]
+        },
+        {
+            "id": 337,
+            "question": "How many constructors can be created for a class?",
+            "student_answer": "A very large amount of constructors can be created for any given class through overloading.  When two constructors with a different type or number of parameters are created, they are said to be overloaded, and C++ can recognize which constructor to use based on the type of the variables that are passed/returned.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor",
+                "class",
+                "overloading"
+            ]
+        },
+        {
+            "id": 367,
+            "question": "What is the difference between a function prototype and a function definition?",
+            "student_answer": "A function definition is the code that defines the function placed in the {} brackets that determines that function's operation.  A function prototype shows the function's public interface without exposing implementation.  It shows name, return type and type of paramaters.",
+            "concepts_evaluated": [
+                "header_file",
+                "source_file"
+            ]
+        },
+        {
+            "id": 397,
+            "question": "What is the role of a header-file?",
+            "student_answer": "To hold reusable content or modules separate from the actual  source-code file that can be easily referenced and employed for different programs.",
+            "concepts_evaluated": [
+                "header_file"
+            ]
+        }
+    ],
+    "student_16": [
+        {
+            "id": 218,
+            "question": "What is typically included in a class definition?",
+            "student_answer": "the data and methods",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "class",
+                "data_member",
+                "member_function",
+                "encapsulation"
+            ]
+        },
+        {
+            "id": 248,
+            "question": "What is the difference between a data member and a local variable inside a member function?",
+            "student_answer": "local variables can only be used within the function, where as data members can be set to public access and can be used throughout",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "data_member",
+                "local_variable",
+                "member_function"
+            ]
+        },
+        {
+            "id": 278,
+            "question": "What is the difference between a constructor and a function?",
+            "student_answer": "a constructor initializes data members but the functions actually perform tasks. Constructors cant return values either.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor",
+                "member_function"
+            ]
+        },
+        {
+            "id": 308,
+            "question": "When does C++ create a default constructor?",
+            "student_answer": "When no constructor exists when one is needed, a parameterless default constructor is declared.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor"
+            ]
+        },
+        {
+            "id": 338,
+            "question": "How many constructors can be created for a class?",
+            "student_answer": "It depends on the number of objects. Each object should have a constructor.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor",
+                "class",
+                "overloading"
+            ]
+        },
+        {
+            "id": 368,
+            "question": "What is the difference between a function prototype and a function definition?",
+            "student_answer": "A function prototype is just a declaration of the function existing, and cant be used as an actual function. A function has to be created with a definition within to tell the compiler what the function does.",
+            "concepts_evaluated": [
+                "header_file",
+                "source_file"
+            ]
+        },
+        {
+            "id": 398,
+            "question": "What is the role of a header-file?",
+            "student_answer": "a header file is a file used to store a list of prototye functions and data members.",
+            "concepts_evaluated": [
+                "header_file"
+            ]
+        }
+    ],
+    "student_17": [
+        {
+            "id": 219,
+            "question": "What is typically included in a class definition?",
+            "student_answer": "A constructor, functions, and variables that are accessible to by that class, and possibly other classes depending on how they are done.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "class",
+                "data_member",
+                "member_function",
+                "encapsulation"
+            ]
+        },
+        {
+            "id": 249,
+            "question": "What is the difference between a data member and a local variable inside a member function?",
+            "student_answer": "The local variable is lost once it exits the block of code, while the data member is not.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "data_member",
+                "local_variable",
+                "member_function"
+            ]
+        },
+        {
+            "id": 279,
+            "question": "What is the difference between a constructor and a function?",
+            "student_answer": "a constructor does not need a type, and it is used to initialize the variables.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor",
+                "member_function"
+            ]
+        },
+        {
+            "id": 309,
+            "question": "When does C++ create a default constructor?",
+            "student_answer": "The Compiler creates this automatically for you, unless you specifically create one.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor"
+            ]
+        },
+        {
+            "id": 339,
+            "question": "How many constructors can be created for a class?",
+            "student_answer": "Theoretically unlimited, as long as they are defined by the programmer.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor",
+                "class",
+                "overloading"
+            ]
+        },
+        {
+            "id": 369,
+            "question": "What is the difference between a function prototype and a function definition?",
+            "student_answer": "the Prototype creates a framework to call the function definition. While a function definition is where the function is actually programmed out and created into a final product.",
+            "concepts_evaluated": [
+                "header_file",
+                "source_file"
+            ]
+        },
+        {
+            "id": 399,
+            "question": "What is the role of a header-file?",
+            "student_answer": "A header file is a cross communication method between source files, to help limit the size of each individual program. Without header files a program will be 1 large lump of code and thus fairly hard to debug and traverse.",
+            "concepts_evaluated": [
+                "header_file"
+            ]
+        }
+    ],
+    "student_18": [
+        {
+            "id": 220,
+            "question": "What is typically included in a class definition?",
+            "student_answer": "Member functions and data members.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "class",
+                "data_member",
+                "member_function",
+                "encapsulation"
+            ]
+        },
+        {
+            "id": 250,
+            "question": "What is the difference between a data member and a local variable inside a member function?",
+            "student_answer": "Every member function can access and modify a data member. A local variable can only be used from the line of declaration to the next closing } before it is lost from memory.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "data_member",
+                "local_variable",
+                "member_function"
+            ]
+        },
+        {
+            "id": 280,
+            "question": "What is the difference between a constructor and a function?",
+            "student_answer": "Constructors don't have a return type.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor",
+                "member_function"
+            ]
+        },
+        {
+            "id": 310,
+            "question": "When does C++ create a default constructor?",
+            "student_answer": "In any class that doesn't explicitly include a constructor.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor"
+            ]
+        },
+        {
+            "id": 340,
+            "question": "How many constructors can be created for a class?",
+            "student_answer": "As many as needed.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor",
+                "class",
+                "overloading"
+            ]
+        },
+        {
+            "id": 370,
+            "question": "What is the difference between a function prototype and a function definition?",
+            "student_answer": "A function prototype describes the class's public interface without providing how the function works. A function definition contains the inner workings of the function.",
+            "concepts_evaluated": [
+                "header_file",
+                "source_file"
+            ]
+        },
+        {
+            "id": 400,
+            "question": "What is the role of a header-file?",
+            "student_answer": "It contains reusable source code for use by other classes.",
+            "concepts_evaluated": [
+                "header_file"
+            ]
+        }
+    ],
+    "student_19": [
+        {
+            "id": 221,
+            "question": "What is typically included in a class definition?",
+            "student_answer": "public section and private section, and there must be a semicolon to set the end",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "class",
+                "data_member",
+                "member_function",
+                "encapsulation"
+            ]
+        },
+        {
+            "id": 251,
+            "question": "What is the difference between a data member and a local variable inside a member function?",
+            "student_answer": "data member is accessible to all functions in the class, where local variable is only available to the member function and value is lost when function closes",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "data_member",
+                "local_variable",
+                "member_function"
+            ]
+        },
+        {
+            "id": 281,
+            "question": "What is the difference between a constructor and a function?",
+            "student_answer": "constructor creates the class object into memory where functions perform actions against that object",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor",
+                "member_function"
+            ]
+        },
+        {
+            "id": 311,
+            "question": "When does C++ create a default constructor?",
+            "student_answer": "when no user-defined constructor exists",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor"
+            ]
+        },
+        {
+            "id": 341,
+            "question": "How many constructors can be created for a class?",
+            "student_answer": "as many as wanted/needed",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor",
+                "class",
+                "overloading"
+            ]
+        },
+        {
+            "id": 371,
+            "question": "What is the difference between a function prototype and a function definition?",
+            "student_answer": "prototype states all functions in that class before compilation, where the definition actually holds the source for the functions",
+            "concepts_evaluated": [
+                "header_file",
+                "source_file"
+            ]
+        },
+        {
+            "id": 401,
+            "question": "What is the role of a header-file?",
+            "student_answer": "to separate the source code from the main function, allows the methods/classes to be included in the program without direct coding. allows re usability.",
+            "concepts_evaluated": [
+                "header_file"
+            ]
+        }
+    ],
+    "student_2": [
+        {
+            "id": 204,
+            "question": "What is typically included in a class definition?",
+            "student_answer": "The attributes of said class. Also whether or not it is a subclass. Also whether it is public private or protected.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "class",
+                "data_member",
+                "member_function",
+                "encapsulation"
+            ]
+        },
+        {
+            "id": 234,
+            "question": "What is the difference between a data member and a local variable inside a member function?",
+            "student_answer": "A field variable is a variable that is declared as a member of a class. A local variable is avariable that isdeclared local to a method.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "data_member",
+                "local_variable",
+                "member_function"
+            ]
+        },
+        {
+            "id": 264,
+            "question": "What is the difference between a constructor and a function?",
+            "student_answer": "all constructors are functions but not all functions are constructors. Also functions can have nearly infinite purposes, while constructors always create an instance of whichever class you are using. You can change how a constructor does something but not what it does. With functions you can change not only the how but also the what.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor",
+                "member_function"
+            ]
+        },
+        {
+            "id": 294,
+            "question": "When does C++ create a default constructor?",
+            "student_answer": "during compilation",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor"
+            ]
+        },
+        {
+            "id": 324,
+            "question": "How many constructors can be created for a class?",
+            "student_answer": "As many as you want so long as they have different parameters.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor",
+                "class",
+                "overloading"
+            ]
+        },
+        {
+            "id": 354,
+            "question": "What is the difference between a function prototype and a function definition?",
+            "student_answer": "The FUNCTION PROTOTYPE is where the programmer declares that he/she is using a function other than main( ). This is like declaring a variable, the programmer knows that he/she will be using in the future, but has yet to say where they are going to use it, or how. This is answers the question who, it gives the function a name and character. The function prototype, by common practice is placed at the beginning of the program after the #includes and before main( ). The FUNCTION DEFINITION is the guts of the function. This is where the programmer decides what the function is going to do and tells it how to do it. It takes whatever information it is given and performs the operations. It works sort of like the brain, the brain takes in input and based upon that input performs in some way producing an output. The function defintion is placed outside of main( ) and any other functions. A function is its own entity and should be thought of as such.",
+            "concepts_evaluated": [
+                "header_file",
+                "source_file"
+            ]
+        },
+        {
+            "id": 384,
+            "question": "What is the role of a header-file?",
+            "student_answer": "The main role of header file is it is used to share information among various files.",
+            "concepts_evaluated": [
+                "header_file"
+            ]
+        }
+    ],
+    "student_20": [
+        {
+            "id": 222,
+            "question": "What is typically included in a class definition?",
+            "student_answer": "member funtions and data members",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "class",
+                "data_member",
+                "member_function",
+                "encapsulation"
+            ]
+        },
+        {
+            "id": 252,
+            "question": "What is the difference between a data member and a local variable inside a member function?",
+            "student_answer": "Data members are variables that are declared inside the class definition but outside of the bodies of the class member functions. Local variables can only be used within the function declaration.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "data_member",
+                "local_variable",
+                "member_function"
+            ]
+        },
+        {
+            "id": 282,
+            "question": "What is the difference between a constructor and a function?",
+            "student_answer": "constructors cannot return values",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor",
+                "member_function"
+            ]
+        },
+        {
+            "id": 312,
+            "question": "When does C++ create a default constructor?",
+            "student_answer": "If a class does not explicitly include a constructor, the compiler creates one.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor"
+            ]
+        },
+        {
+            "id": 342,
+            "question": "How many constructors can be created for a class?",
+            "student_answer": "several",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor",
+                "class",
+                "overloading"
+            ]
+        },
+        {
+            "id": 372,
+            "question": "What is the difference between a function prototype and a function definition?",
+            "student_answer": "Function prototypes tell the compiler the function names, its return type, and the types of its parameters where as, function definitions actually implement the member functions.",
+            "concepts_evaluated": [
+                "header_file",
+                "source_file"
+            ]
+        },
+        {
+            "id": 402,
+            "question": "What is the role of a header-file?",
+            "student_answer": "Header files have reusable source code in a file that a programer can use.",
+            "concepts_evaluated": [
+                "header_file"
+            ]
+        }
+    ],
+    "student_21": [
+        {
+            "id": 223,
+            "question": "What is typically included in a class definition?",
+            "student_answer": "Data members and Member functions",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "class",
+                "data_member",
+                "member_function",
+                "encapsulation"
+            ]
+        },
+        {
+            "id": 253,
+            "question": "What is the difference between a data member and a local variable inside a member function?",
+            "student_answer": "The data member can be accessed outside of the class, whereas the local variable cannot.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "data_member",
+                "local_variable",
+                "member_function"
+            ]
+        },
+        {
+            "id": 283,
+            "question": "What is the difference between a constructor and a function?",
+            "student_answer": "A constructor initializes values and a function usual performs some sort of operation.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor",
+                "member_function"
+            ]
+        },
+        {
+            "id": 313,
+            "question": "When does C++ create a default constructor?",
+            "student_answer": "When you do not provide your own constructor.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor"
+            ]
+        },
+        {
+            "id": 343,
+            "question": "How many constructors can be created for a class?",
+            "student_answer": "One",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor",
+                "class",
+                "overloading"
+            ]
+        },
+        {
+            "id": 373,
+            "question": "What is the difference between a function prototype and a function definition?",
+            "student_answer": "A function prototype just specifies parameters.  A function definition includes parameters and a code body.",
+            "concepts_evaluated": [
+                "header_file",
+                "source_file"
+            ]
+        },
+        {
+            "id": 403,
+            "question": "What is the role of a header-file?",
+            "student_answer": "To hide the definition and details of a class.  Also to help readability of the main C++ file.",
+            "concepts_evaluated": [
+                "header_file"
+            ]
+        }
+    ],
+    "student_22": [
+        {
+            "id": 224,
+            "question": "What is typically included in a class definition?",
+            "student_answer": "data members and member functions",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "class",
+                "data_member",
+                "member_function",
+                "encapsulation"
+            ]
+        },
+        {
+            "id": 254,
+            "question": "What is the difference between a data member and a local variable inside a member function?",
+            "student_answer": "Local variables cannot be used outside of that function body. When a function terminates the values of its local variables are lost. Where as data members are variables in a class definition, and they exist throughout the life of the object. ",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "data_member",
+                "local_variable",
+                "member_function"
+            ]
+        },
+        {
+            "id": 284,
+            "question": "What is the difference between a constructor and a function?",
+            "student_answer": "A constructor is a function used to initialize an object's data when it is created. It's call is made implicitly when the object is created and must be defined with the same name as the class. Constructor also cannot return a value like a function can.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor",
+                "member_function"
+            ]
+        },
+        {
+            "id": 314,
+            "question": "When does C++ create a default constructor?",
+            "student_answer": "When a class does not explicitly include a constructor.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor"
+            ]
+        },
+        {
+            "id": 344,
+            "question": "How many constructors can be created for a class?",
+            "student_answer": "one",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor",
+                "class",
+                "overloading"
+            ]
+        },
+        {
+            "id": 374,
+            "question": "What is the difference between a function prototype and a function definition?",
+            "student_answer": "Function prototypes describe the class's public interface",
+            "concepts_evaluated": [
+                "header_file",
+                "source_file"
+            ]
+        },
+        {
+            "id": 404,
+            "question": "What is the role of a header-file?",
+            "student_answer": "To allow the compiler to recognize the classes when used elsewhere.",
+            "concepts_evaluated": [
+                "header_file"
+            ]
+        }
+    ],
+    "student_23": [
+        {
+            "id": 225,
+            "question": "What is typically included in a class definition?",
+            "student_answer": "the class name and its public data types such as constructors, methods, functions.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "class",
+                "data_member",
+                "member_function",
+                "encapsulation"
+            ]
+        },
+        {
+            "id": 255,
+            "question": "What is the difference between a data member and a local variable inside a member function?",
+            "student_answer": "a local variable in a member function has to be static. a data member can change its value freely.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "data_member",
+                "local_variable",
+                "member_function"
+            ]
+        },
+        {
+            "id": 285,
+            "question": "What is the difference between a constructor and a function?",
+            "student_answer": "A constructor is used to create an instance of a class and has the same name as that class. A function cannot have the same name as a class and computes data.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor",
+                "member_function"
+            ]
+        },
+        {
+            "id": 315,
+            "question": "When does C++ create a default constructor?",
+            "student_answer": "C++ creates a default constructor during compilation if one is not provided.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor"
+            ]
+        },
+        {
+            "id": 345,
+            "question": "How many constructors can be created for a class?",
+            "student_answer": "There can be infinite constructors as long as the signature is different.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor",
+                "class",
+                "overloading"
+            ]
+        },
+        {
+            "id": 375,
+            "question": "What is the difference between a function prototype and a function definition?",
+            "student_answer": "A prototype only declares name, return type, and input type. A definition also defines the scope, variables, process, and return function ",
+            "concepts_evaluated": [
+                "header_file",
+                "source_file"
+            ]
+        },
+        {
+            "id": 405,
+            "question": "What is the role of a header-file?",
+            "student_answer": "A header file declares a class, its data, and functions available through that class.",
+            "concepts_evaluated": [
+                "header_file"
+            ]
+        }
+    ],
+    "student_24": [
+        {
+            "id": 226,
+            "question": "What is typically included in a class definition?",
+            "student_answer": "a constructor and several data members, and at least one public data member or method",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "class",
+                "data_member",
+                "member_function",
+                "encapsulation"
+            ]
+        },
+        {
+            "id": 256,
+            "question": "What is the difference between a data member and a local variable inside a member function?",
+            "student_answer": "a local variable is only useable within the function it is defined, whereas a data member is available to any method within its class",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "data_member",
+                "local_variable",
+                "member_function"
+            ]
+        },
+        {
+            "id": 286,
+            "question": "What is the difference between a constructor and a function?",
+            "student_answer": "a constructor is a function that initializes a class instance, a function performs whatever task it is written for",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor",
+                "member_function"
+            ]
+        },
+        {
+            "id": 316,
+            "question": "When does C++ create a default constructor?",
+            "student_answer": "when a class does not explicitly include a constructor",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor"
+            ]
+        },
+        {
+            "id": 346,
+            "question": "How many constructors can be created for a class?",
+            "student_answer": "that depends on the number of data members in the class",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor",
+                "class",
+                "overloading"
+            ]
+        },
+        {
+            "id": 376,
+            "question": "What is the difference between a function prototype and a function definition?",
+            "student_answer": "a function prototype simply declares the functions parameters, the function definition includes any necessary variables and the function's actual code",
+            "concepts_evaluated": [
+                "header_file",
+                "source_file"
+            ]
+        },
+        {
+            "id": 406,
+            "question": "What is the role of a header-file?",
+            "student_answer": "header files contain code which can be used in multiple files",
+            "concepts_evaluated": [
+                "header_file"
+            ]
+        }
+    ],
+    "student_25": [
+        {
+            "id": 227,
+            "question": "What is typically included in a class definition?",
+            "student_answer": "class name, two curly prenthesis, public and private",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "class",
+                "data_member",
+                "member_function",
+                "encapsulation"
+            ]
+        },
+        {
+            "id": 257,
+            "question": "What is the difference between a data member and a local variable inside a member function?",
+            "student_answer": "Variable declared in a function defination's body cannot be used outside of that function.  Data members accessible only to member function of that class.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "data_member",
+                "local_variable",
+                "member_function"
+            ]
+        },
+        {
+            "id": 287,
+            "question": "What is the difference between a constructor and a function?",
+            "student_answer": "A constructor cannot return values, not even void, but function get a return value.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor",
+                "member_function"
+            ]
+        },
+        {
+            "id": 317,
+            "question": "When does C++ create a default constructor?",
+            "student_answer": "The compiler will provide one when class does not explictly include a consructor.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor"
+            ]
+        },
+        {
+            "id": 347,
+            "question": "How many constructors can be created for a class?",
+            "student_answer": "one",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor",
+                "class",
+                "overloading"
+            ]
+        },
+        {
+            "id": 377,
+            "question": "What is the difference between a function prototype and a function definition?",
+            "student_answer": "A functgion prototype is a declaration of a function , while function definition specifies what a function does",
+            "concepts_evaluated": [
+                "header_file",
+                "source_file"
+            ]
+        },
+        {
+            "id": 407,
+            "question": "What is the role of a header-file?",
+            "student_answer": "Allow compiler to recognize the classes when used elsewhere",
+            "concepts_evaluated": [
+                "header_file"
+            ]
+        }
+    ],
+    "student_26": [
+        {
+            "id": 228,
+            "question": "What is typically included in a class definition?",
+            "student_answer": "data members and member functions",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "class",
+                "data_member",
+                "member_function",
+                "encapsulation"
+            ]
+        },
+        {
+            "id": 258,
+            "question": "What is the difference between a data member and a local variable inside a member function?",
+            "student_answer": "data members   local variables are declared in a function definition\u2019s body. they Cannot be used outside of that function body. When a function terminates, the values of its local variables are lost.   ",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "data_member",
+                "local_variable",
+                "member_function"
+            ]
+        },
+        {
+            "id": 288,
+            "question": "What is the difference between a constructor and a function?",
+            "student_answer": "a constructor cannot return values, its not even void. it is used to initialize an object's data when it is created. whereas, a function is created to do a specific task, and it can return values.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor",
+                "member_function"
+            ]
+        },
+        {
+            "id": 318,
+            "question": "When does C++ create a default constructor?",
+            "student_answer": "when the programmer does not explicitly include a constructor",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor"
+            ]
+        },
+        {
+            "id": 348,
+            "question": "How many constructors can be created for a class?",
+            "student_answer": "you can overload constructors as you need",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor",
+                "class",
+                "overloading"
+            ]
+        },
+        {
+            "id": 378,
+            "question": "What is the difference between a function prototype and a function definition?",
+            "student_answer": "in a function prototype you include the return type, the name of the function, and its parameters if any are needed.  in a function definition you write the code of what the function will do. ",
+            "concepts_evaluated": [
+                "header_file",
+                "source_file"
+            ]
+        },
+        {
+            "id": 408,
+            "question": "What is the role of a header-file?",
+            "student_answer": "Allow compiler to recognize the classes when used elsewhere",
+            "concepts_evaluated": [
+                "header_file"
+            ]
+        }
+    ],
+    "student_27": [
+        {
+            "id": 229,
+            "question": "What is typically included in a class definition?",
+            "student_answer": "Data and functions",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "class",
+                "data_member",
+                "member_function",
+                "encapsulation"
+            ]
+        },
+        {
+            "id": 259,
+            "question": "What is the difference between a data member and a local variable inside a member function?",
+            "student_answer": "local variable is only available in the function.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "data_member",
+                "local_variable",
+                "member_function"
+            ]
+        },
+        {
+            "id": 289,
+            "question": "What is the difference between a constructor and a function?",
+            "student_answer": "A constructor initializes an object. A function is part of an object.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor",
+                "member_function"
+            ]
+        },
+        {
+            "id": 319,
+            "question": "When does C++ create a default constructor?",
+            "student_answer": "When one is not explicitly stated.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor"
+            ]
+        },
+        {
+            "id": 349,
+            "question": "How many constructors can be created for a class?",
+            "student_answer": "As many as the programmer wants to create.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor",
+                "class",
+                "overloading"
+            ]
+        },
+        {
+            "id": 379,
+            "question": "What is the difference between a function prototype and a function definition?",
+            "student_answer": "A function definition contains all the code for a function to work. A function prototype just shows the output, input and function name.",
+            "concepts_evaluated": [
+                "header_file",
+                "source_file"
+            ]
+        },
+        {
+            "id": 409,
+            "question": "What is the role of a header-file?",
+            "student_answer": "To promote function reusuablitly",
+            "concepts_evaluated": [
+                "header_file"
+            ]
+        }
+    ],
+    "student_28": [
+        {
+            "id": 230,
+            "question": "What is typically included in a class definition?",
+            "student_answer": "functions and data members that belong to the class",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "class",
+                "data_member",
+                "member_function",
+                "encapsulation"
+            ]
+        },
+        {
+            "id": 260,
+            "question": "What is the difference between a data member and a local variable inside a member function?",
+            "student_answer": "local variables are accessed inside member functions only while data members   can be accessed throughout the class",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "data_member",
+                "local_variable",
+                "member_function"
+            ]
+        },
+        {
+            "id": 290,
+            "question": "What is the difference between a constructor and a function?",
+            "student_answer": "constructors initialize the data that is then used in the calculations of a   function",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor",
+                "member_function"
+            ]
+        },
+        {
+            "id": 320,
+            "question": "When does C++ create a default constructor?",
+            "student_answer": "when one is not explicitly included by a class",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor"
+            ]
+        },
+        {
+            "id": 350,
+            "question": "How many constructors can be created for a class?",
+            "student_answer": "one",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor",
+                "class",
+                "overloading"
+            ]
+        },
+        {
+            "id": 380,
+            "question": "What is the difference between a function prototype and a function definition?",
+            "student_answer": "function prototype describe the class's public interface without revealing   the class's member function implementations,  function definitions show what   implementations are being done",
+            "concepts_evaluated": [
+                "header_file",
+                "source_file"
+            ]
+        },
+        {
+            "id": 410,
+            "question": "What is the role of a header-file?",
+            "student_answer": "class definitions are placed here",
+            "concepts_evaluated": [
+                "header_file"
+            ]
+        }
+    ],
+    "student_29": [
+        {
+            "id": 231,
+            "question": "What is typically included in a class definition?",
+            "student_answer": "class variables, function definitions for the class",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "class",
+                "data_member",
+                "member_function",
+                "encapsulation"
+            ]
+        },
+        {
+            "id": 261,
+            "question": "What is the difference between a data member and a local variable inside a member function?",
+            "student_answer": "A data member is accessible anywhere in the class, while i local variable in a member function is only accessible in that particular function, and is freed after the function exits.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "data_member",
+                "local_variable",
+                "member_function"
+            ]
+        },
+        {
+            "id": 291,
+            "question": "What is the difference between a constructor and a function?",
+            "student_answer": "a constructor is called when the class is created, a function can be called any time.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor",
+                "member_function"
+            ]
+        },
+        {
+            "id": 321,
+            "question": "When does C++ create a default constructor?",
+            "student_answer": "When you dont specify any constructors.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor"
+            ]
+        },
+        {
+            "id": 351,
+            "question": "How many constructors can be created for a class?",
+            "student_answer": "as many as you want, as long as they each have a unique argument list",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor",
+                "class",
+                "overloading"
+            ]
+        },
+        {
+            "id": 381,
+            "question": "What is the difference between a function prototype and a function definition?",
+            "student_answer": "A function prototype only names the function, its return type, and it's argument list, while a definition defines the above as well as what the function actually does.",
+            "concepts_evaluated": [
+                "header_file",
+                "source_file"
+            ]
+        },
+        {
+            "id": 411,
+            "question": "What is the role of a header-file?",
+            "student_answer": "A header file usually contains class and/or function prototypes.",
+            "concepts_evaluated": [
+                "header_file"
+            ]
+        }
+    ],
+    "student_3": [
+        {
+            "id": 205,
+            "question": "What is typically included in a class definition?",
+            "student_answer": "Information telling the compiler what data members and member functions belong to the class.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "class",
+                "data_member",
+                "member_function",
+                "encapsulation"
+            ]
+        },
+        {
+            "id": 235,
+            "question": "What is the difference between a data member and a local variable inside a member function?",
+            "student_answer": "Data members are declared inside the class, but outside of any member functions. Unlike with local variables, each object of the class keeps its own copy of the data members stored in memory.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "data_member",
+                "local_variable",
+                "member_function"
+            ]
+        },
+        {
+            "id": 265,
+            "question": "What is the difference between a constructor and a function?",
+            "student_answer": "Unlike regular functions, constructors are only used to initialize an object\u2019s data when it is created. Constructors must also be given the same name as the class and cannot return any values. ",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor",
+                "member_function"
+            ]
+        },
+        {
+            "id": 295,
+            "question": "When does C++ create a default constructor?",
+            "student_answer": "When the class does not explicitly include a constructor.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor"
+            ]
+        },
+        {
+            "id": 325,
+            "question": "How many constructors can be created for a class?",
+            "student_answer": "There is no limit to the number of constructors in a class because like functions, constructors can be overloaded.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor",
+                "class",
+                "overloading"
+            ]
+        },
+        {
+            "id": 355,
+            "question": "What is the difference between a function prototype and a function definition?",
+            "student_answer": "A function prototype tells the compiler the function name, return type and the number and type of parameters without revealing the implementations contained in the function definition.",
+            "concepts_evaluated": [
+                "header_file",
+                "source_file"
+            ]
+        },
+        {
+            "id": 385,
+            "question": "What is the role of a header-file?",
+            "student_answer": "Header files separate files in which classes are defined and allow the compiler to recognize classes when used elsewhere.",
+            "concepts_evaluated": [
+                "header_file"
+            ]
+        }
+    ],
+    "student_30": [
+        {
+            "id": 232,
+            "question": "What is typically included in a class definition?",
+            "student_answer": "A class is an expanded concept of a data structure, it holds both the data and the functions being executed ",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "class",
+                "data_member",
+                "member_function",
+                "encapsulation"
+            ]
+        },
+        {
+            "id": 262,
+            "question": "What is the difference between a data member and a local variable inside a member function?",
+            "student_answer": "a Data member is encapsulated within a class or object,  it is static and can be shared by all instances of that class.  however local variable's are only used from the function or block in which it is declared and not the whole class. other wise they would be called global variables. ",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "data_member",
+                "local_variable",
+                "member_function"
+            ]
+        },
+        {
+            "id": 292,
+            "question": "What is the difference between a constructor and a function?",
+            "student_answer": "constructor is a special block of statements called when an object is created, either when it is declared statically or constructed on the stack. However a function is a portion of code within a larger program, which performs a specific task and independent to the rest of the code. ",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor",
+                "member_function"
+            ]
+        },
+        {
+            "id": 322,
+            "question": "When does C++ create a default constructor?",
+            "student_answer": "at the very beginning when you run a complier, matter a fact in C++ it generates its own default constructor for the class provided if no other constructors have been provided by user",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor"
+            ]
+        },
+        {
+            "id": 352,
+            "question": "How many constructors can be created for a class?",
+            "student_answer": "as many as the user decides to use.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor",
+                "class",
+                "overloading"
+            ]
+        },
+        {
+            "id": 382,
+            "question": "What is the difference between a function prototype and a function definition?",
+            "student_answer": "function prototype describes a classes interface without reviling whatever is inside as for the function definition can't do that.",
+            "concepts_evaluated": [
+                "header_file",
+                "source_file"
+            ]
+        },
+        {
+            "id": 412,
+            "question": "What is the role of a header-file?",
+            "student_answer": "contains all the standard C++ library's i.e. string",
+            "concepts_evaluated": [
+                "header_file"
+            ]
+        }
+    ],
+    "student_4": [
+        {
+            "id": 206,
+            "question": "What is typically included in a class definition?",
+            "student_answer": "Since class is user defined, the body of the declaration can contain members, that can be either data or function declarations, and optionally access specifiers.  Example for specifiers would be public, private, and protected.  There is the keyword Class and the Class body is enclosed with brackets ({}). ",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "class",
+                "data_member",
+                "member_function",
+                "encapsulation"
+            ]
+        },
+        {
+            "id": 236,
+            "question": "What is the difference between a data member and a local variable inside a member function?",
+            "student_answer": "Data member are variables that represent an attribute in a class definition.  Local variables declared in a function body cannot be used outside of that function body.  When a function terminates the values of its local variables are lost.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "data_member",
+                "local_variable",
+                "member_function"
+            ]
+        },
+        {
+            "id": 266,
+            "question": "What is the difference between a constructor and a function?",
+            "student_answer": "A constructor typically used to intialize data members and allocate resources, for instance memory, files, etc.  Also a constructor cannot return values.  Functions are operations that maybe globally defined.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor",
+                "member_function"
+            ]
+        },
+        {
+            "id": 296,
+            "question": "When does C++ create a default constructor?",
+            "student_answer": "When no parameters are set is when a default constructor is used.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor"
+            ]
+        },
+        {
+            "id": 326,
+            "question": "How many constructors can be created for a class?",
+            "student_answer": "It depends what type of class is being defined.  Typically you would have a constructor call for each object.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor",
+                "class",
+                "overloading"
+            ]
+        },
+        {
+            "id": 356,
+            "question": "What is the difference between a function prototype and a function definition?",
+            "student_answer": "Function prototype is a declaration.  Function definitions (w/multiple parameters) often require more than one piece of information. to perform their tasks.",
+            "concepts_evaluated": [
+                "header_file",
+                "source_file"
+            ]
+        },
+        {
+            "id": 386,
+            "question": "What is the role of a header-file?",
+            "student_answer": "No",
+            "concepts_evaluated": [
+                "header_file"
+            ]
+        }
+    ],
+    "student_5": [
+        {
+            "id": 207,
+            "question": "What is typically included in a class definition?",
+            "student_answer": "An object and data.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "class",
+                "data_member",
+                "member_function",
+                "encapsulation"
+            ]
+        },
+        {
+            "id": 237,
+            "question": "What is the difference between a data member and a local variable inside a member function?",
+            "student_answer": "A local variable cannot be accessed outside the function in which it is declared. Data members normally are private. Variables of functions declared private are accessible only to member functions of the class in which they are declared.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "data_member",
+                "local_variable",
+                "member_function"
+            ]
+        },
+        {
+            "id": 267,
+            "question": "What is the difference between a constructor and a function?",
+            "student_answer": "Constructors cannot return values, so they cannot specify a return type. Normally, constructors are declared public.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor",
+                "member_function"
+            ]
+        },
+        {
+            "id": 297,
+            "question": "When does C++ create a default constructor?",
+            "student_answer": "When a class does not explicitly include a constructor.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor"
+            ]
+        },
+        {
+            "id": 327,
+            "question": "How many constructors can be created for a class?",
+            "student_answer": "In C++, the constructor can be overloaded in that there can be more than one constructor for a class, each having different parameters.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor",
+                "class",
+                "overloading"
+            ]
+        },
+        {
+            "id": 357,
+            "question": "What is the difference between a function prototype and a function definition?",
+            "student_answer": "A function prototype is a declaration of a function that tells the compiler the function's name, its return type and the types of its parameters.",
+            "concepts_evaluated": [
+                "header_file",
+                "source_file"
+            ]
+        },
+        {
+            "id": 387,
+            "question": "What is the role of a header-file?",
+            "student_answer": "A header file consists of \"reusable\" source code such as a class in a file that by convention has a .h filename extension. This differs from .cpp files that contain \"source-code.\"",
+            "concepts_evaluated": [
+                "header_file"
+            ]
+        }
+    ],
+    "student_6": [
+        {
+            "id": 208,
+            "question": "What is typically included in a class definition?",
+            "student_answer": "It's specific class name, includes only information defined by that class... implementation details... etc.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "class",
+                "data_member",
+                "member_function",
+                "encapsulation"
+            ]
+        },
+        {
+            "id": 238,
+            "question": "What is the difference between a data member and a local variable inside a member function?",
+            "student_answer": "A data member is part of a C++ class or structure that stores data of a certain type... A local variable inside a member function is only available inside that function, and can be used to derive a desired outcome.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "data_member",
+                "local_variable",
+                "member_function"
+            ]
+        },
+        {
+            "id": 268,
+            "question": "What is the difference between a constructor and a function?",
+            "student_answer": "A constructor is a method that starts new instances of a class. (Example: Employee employee1(parameters) starts a new instance of object of type Employee). A function is simply a module w/in a program that completes its single desired task.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor",
+                "member_function"
+            ]
+        },
+        {
+            "id": 298,
+            "question": "When does C++ create a default constructor?",
+            "student_answer": "When there are no arguments passed.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor"
+            ]
+        },
+        {
+            "id": 328,
+            "question": "How many constructors can be created for a class?",
+            "student_answer": "1",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor",
+                "class",
+                "overloading"
+            ]
+        },
+        {
+            "id": 358,
+            "question": "What is the difference between a function prototype and a function definition?",
+            "student_answer": "A prototype shows only return types and necessary parameters. The definition includes names for those parameters and defines what the object is actually capable of doing.",
+            "concepts_evaluated": [
+                "header_file",
+                "source_file"
+            ]
+        },
+        {
+            "id": 388,
+            "question": "What is the role of a header-file?",
+            "student_answer": "To provide information about the contents of a library. It includes the definition of classes, declarations of functions, data types, and constants.",
+            "concepts_evaluated": [
+                "header_file"
+            ]
+        }
+    ],
+    "student_7": [
+        {
+            "id": 209,
+            "question": "What is typically included in a class definition?",
+            "student_answer": "data members and member functions.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "class",
+                "data_member",
+                "member_function",
+                "encapsulation"
+            ]
+        },
+        {
+            "id": 239,
+            "question": "What is the difference between a data member and a local variable inside a member function?",
+            "student_answer": "A local variable can only be accessed within the scope of its declaration.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "data_member",
+                "local_variable",
+                "member_function"
+            ]
+        },
+        {
+            "id": 269,
+            "question": "What is the difference between a constructor and a function?",
+            "student_answer": "A constructor is called whenever a new object of that class is made.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor",
+                "member_function"
+            ]
+        },
+        {
+            "id": 299,
+            "question": "When does C++ create a default constructor?",
+            "student_answer": "when there is not one already for a specific class",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor"
+            ]
+        },
+        {
+            "id": 329,
+            "question": "How many constructors can be created for a class?",
+            "student_answer": "any number you want",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor",
+                "class",
+                "overloading"
+            ]
+        },
+        {
+            "id": 359,
+            "question": "What is the difference between a function prototype and a function definition?",
+            "student_answer": "prototype only tells the user what data types go into a function and what type is returned.",
+            "concepts_evaluated": [
+                "header_file",
+                "source_file"
+            ]
+        },
+        {
+            "id": 389,
+            "question": "What is the role of a header-file?",
+            "student_answer": "the header file shows the user what types go into and come out of a function but does not allow a user to manipulate the actual code for the function.",
+            "concepts_evaluated": [
+                "header_file"
+            ]
+        }
+    ],
+    "student_8": [
+        {
+            "id": 210,
+            "question": "What is typically included in a class definition?",
+            "student_answer": "A class definition usually contains the function and its data members",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "class",
+                "data_member",
+                "member_function",
+                "encapsulation"
+            ]
+        },
+        {
+            "id": 240,
+            "question": "What is the difference between a data member and a local variable inside a member function?",
+            "student_answer": "Data members are the atributes of the function and can be used outside the function. Local variable can not be used outside the function and the value is lost after the function terminates.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "data_member",
+                "local_variable",
+                "member_function"
+            ]
+        },
+        {
+            "id": 270,
+            "question": "What is the difference between a constructor and a function?",
+            "student_answer": "A constructor does not return any date and has no return type.  Functions can return date or not return data can have a return type.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor",
+                "member_function"
+            ]
+        },
+        {
+            "id": 300,
+            "question": "When does C++ create a default constructor?",
+            "student_answer": "When it the programs compiles",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor"
+            ]
+        },
+        {
+            "id": 330,
+            "question": "How many constructors can be created for a class?",
+            "student_answer": "One",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor",
+                "class",
+                "overloading"
+            ]
+        },
+        {
+            "id": 360,
+            "question": "What is the difference between a function prototype and a function definition?",
+            "student_answer": "Function prototype is located in the .h file and only contains the access function name and paramater type.  Function definition contains the code for the function to perform its activity.",
+            "concepts_evaluated": [
+                "header_file",
+                "source_file"
+            ]
+        },
+        {
+            "id": 390,
+            "question": "What is the role of a header-file?",
+            "student_answer": "Header files declares the class member functions.",
+            "concepts_evaluated": [
+                "header_file"
+            ]
+        }
+    ],
+    "student_9": [
+        {
+            "id": 211,
+            "question": "What is typically included in a class definition?",
+            "student_answer": "Data members and member functions",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "class",
+                "data_member",
+                "member_function",
+                "encapsulation"
+            ]
+        },
+        {
+            "id": 241,
+            "question": "What is the difference between a data member and a local variable inside a member function?",
+            "student_answer": "data members are permanent attributes of the class, local variables inside a member function are lost when the scope of the member function ends.",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "data_member",
+                "local_variable",
+                "member_function"
+            ]
+        },
+        {
+            "id": 271,
+            "question": "What is the difference between a constructor and a function?",
+            "student_answer": "A constructor is automatically called whenever an instance of a class is created, a function must be explicitly called by the user. ",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor",
+                "member_function"
+            ]
+        },
+        {
+            "id": 301,
+            "question": "When does C++ create a default constructor?",
+            "student_answer": "when a constructor is not provided by the programmer of the class",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor"
+            ]
+        },
+        {
+            "id": 331,
+            "question": "How many constructors can be created for a class?",
+            "student_answer": "by default just one, but they may be overloaded to create as many constructors as necessary",
+            "concepts_evaluated": [
+                "objectoriented_programming",
+                "constructor",
+                "class",
+                "overloading"
+            ]
+        },
+        {
+            "id": 361,
+            "question": "What is the difference between a function prototype and a function definition?",
+            "student_answer": "a function prototype is used to reference the compiler to a function that will be defined later on, a function definition is the actual function itself, complete with return type, parameters, etc...",
+            "concepts_evaluated": [
+                "header_file",
+                "source_file"
+            ]
+        },
+        {
+            "id": 391,
+            "question": "What is the role of a header-file?",
+            "student_answer": "A header file allows for the separation of declaration and implementation into separate files.",
+            "concepts_evaluated": [
+                "header_file"
+            ]
+        }
+    ]
+}
