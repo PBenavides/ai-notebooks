@@ -1,0 +1,18 @@
+{
+    "LessonTest1": {
+        "filename": "Lesson Test Filename",
+        "content": "s3://qanqa-prod/pablo/CourseTest/LessonTest1/LessonTest1.txt",
+        "user": "pablo",
+        "podcast_state": "Not Available",
+        "assessment_state": "Not Available",
+        "grade_state": "Not Evaluated" 
+    },
+    "LessonTest2": {
+        "filename": "Lesson Test Filename",
+        "content": "s3://something//file.txt",
+        "user": "pablo",
+        "podcast_state": "Listened",
+        "assessment_state": "Available",
+        "grade_state": "Not Evaluated" 
+    }
+}
